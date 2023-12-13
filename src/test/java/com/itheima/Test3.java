@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 public class Test3 {
 
     public static void main(String[] args) {
-        List<Student> students = List.of(
+        List<Student> students = Arrays.asList(
                 new Student(1, "张三", 80, "1班"),
                 new Student(2, "李四", 88, "1班"),
                 new Student(4, "赵六", 90, "2班")

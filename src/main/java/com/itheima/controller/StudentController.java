@@ -58,7 +58,7 @@ public class StudentController {
     public R q(StudentQueryDto queryDto) {
         Map<String, Object> ret= new HashMap<>();
         ret.put("list", studentService.findBy(queryDto));
-        ret.put("totel", studentService.findCount(queryDto));
+        ret.put("total", studentService.findCount(queryDto));
         return R.ok(
                 ret
         );
